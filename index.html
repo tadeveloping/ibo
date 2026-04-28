@@ -1,11 +1,3 @@
-bash
-
-cd /home/claude/ibo/images && python3 << 'PYEOF'
-# Build the HTML with base64 images embedded
-with open("pila-base64.txt") as f: PILA = f.read()
-with open("krovinorez-base64.txt") as f: KROV = f.read()
-with open("kosacka-base64.txt") as f: KOS = f.read()
-
 html = '''<!DOCTYPE html>
 <html lang="sk">
 <head>
